@@ -7,8 +7,6 @@ import ErrorMessage from '../errorMessage/ErrorMessage';
 
 import './charList.scss';
 
-
-
 const CharList = (props) => {
 
     const [charList, setCharList] = useState([]);
