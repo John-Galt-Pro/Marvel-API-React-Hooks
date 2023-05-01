@@ -97,7 +97,7 @@ const CharList = (props) => {
                         <div className="char__name">{item.name}</div>
                 </li>
             )
-        });
+        } );
 
     // А эта конструкция вынесена для центровки спиннера/ошибки
         return (
